@@ -69,6 +69,7 @@ def go_to(page):
 def go_home():
     st.session_state["form1"] = {}
     st.session_state["form2"] = {}
+    st.session_state["form2_ui_state"] = {}
     st.session_state.page = "Home"
 
 # ---------- CSS MANAGEMENT ----------
